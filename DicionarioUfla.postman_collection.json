@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "54a1136a-5166-4d39-b15e-39e4f1c722b1",
+		"name": "DicionarioUfla",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "dicionario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/dicionario/Abafadura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dicionario",
+						"Abafadura"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
